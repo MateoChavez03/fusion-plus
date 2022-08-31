@@ -2,7 +2,9 @@ import React from 'react';
 
 const Webinar = () => {
   return (
-    <div>Webinar</div>
+    <div className='divContainer'>
+      Webinar
+    </div>
   )
 }
 

@@ -1,8 +1,11 @@
 import React from 'react';
+import './index.css'
 
 const Nosotros = () => {
   return (
-    <div>Nosotros</div>
+    <div className='divContainer'>
+      Nosotros
+    </div>
   )
 }
 
