@@ -1,0 +1,65 @@
+.homeBaner {
+  background-color: var(--main-bg);
+  padding: 0 5rem;
+}
+
+.bannerP1 {
+  font-size: 1.8rem;
+  font-weight: 300;
+  color: var(--third-color);
+  margin-top: 2rem;
+}
+
+.bannerText h1 {
+  font-size: 2rem;
+  font-weight: 600; 
+  margin-top: 2rem; 
+}
+
+.bannerP2 {
+  font-size: 1.5rem;
+  font-weight: 300;
+  margin-top: 2rem;    
+}
+
+.bannerP3 {
+  font-size: 0.8rem;
+  font-weight: 300;
+  margin-top: 2rem;    
+}
+
+.bannerP3 span{
+  font-size: 0.8rem;
+  font-weight: 500;
+  margin-top: 2rem;    
+}
+
+.bannerBtns {
+  padding: 0 2rem;
+  justify-content: space-around;
+}
+
+.bannerBtns button {
+  height: 4rem;
+  margin-top: 4rem;
+  border-radius: 0.5rem;
+  border: 1px solid var(--third-color);
+  cursor: pointer;
+  font-size: 0.8rem;
+  font-weight: 400;
+  transition: all 0.5s ease-in-out;
+}
+
+.bannerBtn1 {
+  background-color: var(--second-bg);
+  color: var(--second-color);
+}
+.bannerBtn2 {
+  background-color: transparent;
+  color: var(--third-color);
+}
+
+.bannerBtns button:hover {
+  background-color: white;
+  color: var(--second-color);
+}
