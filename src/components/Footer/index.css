@@ -1,5 +1,10 @@
 #footer {
-    background-color: var(--third-bg);
+    background-image: url("../../assets/footerBg-01.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-clip: border-box;
+    padding-top: 175px;
+    padding-bottom: 1rem;
   }
   .info {
     font-size: 20px;
