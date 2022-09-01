@@ -1,0 +1,66 @@
+.serviciosBanner {
+  background-color: var(--main-bg);
+  padding: 0 8rem;
+  height: 20rem;
+  align-content: center;
+}
+
+.serviciosBanner h1 {
+  font-size: 2.5rem;
+}
+.serviciosBanner h1 span {
+  font-size: 2.5rem;
+  color: var(--main-bg);
+  text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
+}
+
+.serviciosBanner p {
+  font-size: 1.8rem;
+}
+
+.serviciosContainer {
+  padding: 0 8rem;
+  margin: 2rem 0;
+}
+
+.servicio {     
+  justify-content: space-between; 
+  height: 25rem; 
+  padding-bottom: 2rem ;
+  border-bottom: 1px solid black;
+}
+
+.servicioImg {      
+  object-fit: cover;
+  height: auto !important;
+  outline: 2px solid var(--third-color);
+  outline-offset: -16px;  
+}
+
+.servicioInfo {
+  align-content: space-between;
+}
+
+.servicio p, .servicio h2 {
+  color: black;
+  padding: 1rem;
+}
+
+.servicio h2 {
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.servicioBtns {
+  margin: 1rem;
+}
+
+.servicioBtn {
+  color: var(--second-color);
+  border: none;
+  background-color: white;
+  cursor: pointer;
+  font-size: 0.9rem;
+  font-weight: 500;
+  padding: 0 1rem;
+}
