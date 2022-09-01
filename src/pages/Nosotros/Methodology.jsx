@@ -1,6 +1,6 @@
 import { useState } from "react";
 import Content from "./Content";
-import paperBg from "../../assets/paperBg.png";
+/* import paperBg from "../../assets/paperBg.png"; */
 
 
 const Methodology = () => {  
@@ -18,7 +18,7 @@ const Methodology = () => {
   }
 
   return (
-    <div className='methodologyContainer col-12 row' style={{backgroundImage: `url(${paperBg})`, WebkitBackgroundSize: 'cover'}}>
+    <div className='methodologyContainer col-12 row' /* style={{backgroundImage: `url(${paperBg})`, WebkitBackgroundSize: 'cover'}} */>
       <div className="mthBtns col-12 row">   
         {/* BOTONERA */}       
         {activeBtn === 'valores' 
