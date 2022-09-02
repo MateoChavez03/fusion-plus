@@ -64,3 +64,31 @@
   font-weight: 500;
   padding: 0 1rem;
 }
+
+
+@media screen and (max-width: 768px) {
+
+  .serviciosBanner, .serviciosContainer {    
+    padding: 0 2rem;     
+  }
+
+  .serviciosBanner {    
+    height: 15rem;     
+  }
+
+  .serviciosBanner h1 {
+    font-size: 2rem;
+  }
+  .serviciosBanner h1 span {
+    font-size: 2rem;    
+  }
+  
+  .serviciosBanner p {
+    font-size: 1.2rem;
+  }
+
+  .servicio {  
+    height: auto;     
+  }
+ 
+}

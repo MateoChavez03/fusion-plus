@@ -12,6 +12,9 @@
   color: var(--third-color);
   margin-top: 2rem;
 }
+.bannerText {
+  padding-bottom: 1rem;
+}
 
 .bannerText h1 {
   font-size: 2rem;
@@ -40,6 +43,8 @@
 .bannerBtns {
   padding: 0 2rem;
   justify-content: space-around;
+  display: flex;
+  flex-direction: row !important;
 }
 
 .bannerBtns button {
@@ -51,6 +56,10 @@
   font-size: 0.8rem;
   font-weight: 400;
   transition: all 0.5s ease-in-out;
+}
+
+.instaBtn {  
+  display: flex !important;
 }
 
 .bannerBtn1 {
@@ -69,19 +78,38 @@
 
 .bannerImg {
   justify-content: end;
-  text-align: end !important;
+  /* align-content: center; */  
+  object-fit: contain;  
+  /* text-align: end !important; */  
 }
 
 .celphoneImg {
-  height: 600px;
-  object-fit: contain;
+  /* width: 100%;  */
+  height: 80%;
+  object-fit: contain;  
 }
+
+@media screen and (max-width: 768px) {
+  .homeBaner {    
+    height: auto;
+  }
+
+  .celphoneImg {    
+    height: 400px;      
+  }  
+  
+  .homeBaner {    
+    padding: 0 2rem;    
+  } 
+}
+
+
 
 /* FUELLE */
 
 .airDiv {  
-  padding: 0 30vW;
-  height: 37rem;
+  padding: 5rem 30vW;
+  height: auto;
   justify-content: center;
   align-items: center;
   align-content: center;
@@ -106,18 +134,22 @@
   margin-top: 2rem;
 }
 
+@media screen and (max-width: 576px) {
+  .airDiv {    
+    padding: 2rem;    
+  } 
+}
+
 /* ABOUT */
 
 .aboutDiv {
   background-color: var(--main-bg);
-  padding: 0 5rem;
-  height: 37rem;
-  align-content: center;
+  padding: 5rem;  
 }
 
 .aboutText {
   padding-right: 2rem;
-  height: 100%;  
+  /* height: 100%;   */
   align-content: center;
 }
 
@@ -134,7 +166,7 @@
 }
 
 .aboutNumbersContainer {  
-  height: 100%;
+  /* height: 100%; */
   padding: 2rem;
 }
 
@@ -144,6 +176,12 @@
   border-radius: 1rem;
   text-align: center;
   align-content: space-around;
+  padding: 1rem 0;
+}
+
+.aboutNumbers div{ 
+  padding: 0.5rem; 
+  margin: 1rem 0;
 }
 
 .aboutNumbers h3{
@@ -154,6 +192,31 @@
 .aboutClientes, .aboutProyectos {
   border-right: 1px solid var(--main-color);
 }
+
+@media screen and (max-width: 992px) {
+  .aboutNumbers h3{
+    font-size: 3rem;    
+   }
+   .aboutNumbers p{
+    font-size: 0.8rem;    
+  }
+
+  .aboutDiv {    
+    padding: 2rem;  
+  } 
+}
+
+@media screen and (max-width: 768px) {
+  .aboutP, .aboutH3 {
+    text-align: center;
+  }  
+
+  .aboutDiv {    
+    padding: 2rem 2rem;    
+  } 
+  
+}
+
 
 /* METHODOLOGY */
 
@@ -214,6 +277,32 @@
   width: 100%;
   margin-top: 5rem;
 }
+
+@media screen and (max-width: 768px) {
+  .mthBtn  {    
+    font-size: 1.2rem;    
+  }
+  
+  .mthBtn  {    
+    width: 100%;    
+  }
+
+  .contentContainer {
+    padding: 2rem 2rem;    
+  }
+
+  .methodologyContainer {
+    padding: 0 2rem;    
+  }
+  
+}
+
+@media screen and (max-width: 576px) {
+  .contentContainer {
+    padding: 0;
+  }
+}
+
 
 
 

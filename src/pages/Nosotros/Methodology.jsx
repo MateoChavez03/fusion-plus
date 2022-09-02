@@ -22,16 +22,16 @@ const Methodology = () => {
       <div className="mthBtns col-12 row">   
         {/* BOTONERA */}       
         {activeBtn === 'valores' 
-          ? <button className='mthBtn col-4' id='valores' onClick={changeActiveBtn} style={{backgroundColor:'#E0FD05'}}>Valores</button>
-          : <button className='mthBtn col-4' id='valores' onClick={changeActiveBtn}>Valores</button>
+          ? <button className='mthBtn col-12 col-md-4' id='valores' onClick={changeActiveBtn} style={{backgroundColor:'#E0FD05'}}>Valores</button>
+          : <button className='mthBtn col-12 col-md-4' id='valores' onClick={changeActiveBtn}>Valores</button>
         }        
         {activeBtn === 'metodologia' 
-          ? <button className='mthBtn col-4' id='metodologia' onClick={changeActiveBtn} style={{backgroundColor:'#E0FD05'}}>Metodología de Trabajo</button>
-          : <button className='mthBtn col-4' id='metodologia' onClick={changeActiveBtn}>Metodología de Trabajo</button>
+          ? <button className='mthBtn col-12 col-md-4' id='metodologia' onClick={changeActiveBtn} style={{backgroundColor:'#E0FD05'}}>Metodología de Trabajo</button>
+          : <button className='mthBtn col-12 col-md-4' id='metodologia' onClick={changeActiveBtn}>Metodología de Trabajo</button>
         }        
         {activeBtn === 'propositos' 
-          ? <button className='mthBtn col-4' id='propositos' style={{backgroundColor:'#E0FD05'}}>Propósitos</button>
-          : <button className='mthBtn col-4' id='propositos' onClick={changeActiveBtn} >Propósitos</button>
+          ? <button className='mthBtn col-12 col-md-4' id='propositos' style={{backgroundColor:'#E0FD05'}}>Propósitos</button>
+          : <button className='mthBtn col-12 col-md-4' id='propositos' onClick={changeActiveBtn} >Propósitos</button>
         }  
 
 

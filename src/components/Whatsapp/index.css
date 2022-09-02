@@ -1,0 +1,8 @@
+.whatsapp {
+  position: fixed;
+  width: 76px;
+  height: 76px;
+  left: 30px;
+  bottom: 30px;
+  filter: drop-shadow(1px 3px 5px rgba(0, 36, 17, 0.5));
+}
