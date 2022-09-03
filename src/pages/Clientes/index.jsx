@@ -1,9 +1,13 @@
 import React from 'react';
+import BannerLanding from '../../components/BannerLanding/BannerLandingClientes';
 
 const Clientes = () => {
   return (
     <div className='divContainer'>
-      Clientes
+      <BannerLanding />
+      <div>
+        Clientes
+      </div>
     </div>
   )
 }
