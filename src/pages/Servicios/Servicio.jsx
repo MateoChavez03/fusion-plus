@@ -12,8 +12,10 @@ const Servicio = ({servicio, imagen}) => {
             <p className="servicioP">{servicios[servicio].description}</p>
           </div>
           <div className="servicioBtns">
-            <button className="servicioBtn">CONTRATAR SERVICIO</button>
-            <button className="servicioBtn">MÁS INFORMACIÓN</button>
+            <a href={`https://wa.me/+5492216806935?text=${servicios[servicio].message}`} rel="noreferrer" target="_blank">                                
+              <button className="servicioBtn">CONTRATAR SERVICIO</button>
+            </a>
+            {/* <button className="servicioBtn">MÁS INFORMACIÓN</button> */}
           </div>
         </div>  
         {imagen === 'r' && <img src={`/images/${servicios[servicio].image}.png`} alt={servicios[servicio].alt} className='servicioImg col-12 col-md-4'/>}
