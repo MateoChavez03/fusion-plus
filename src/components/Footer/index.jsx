@@ -16,7 +16,7 @@ const Footer = () => {
           <p className='pb-3 info'>estudiofusionplus@gmail.com</p>
           <p className='py-1 info'>+54 9 2216806935</p>
           <div className='pt-4'>
-            <FaInstagram size={32} className='mx-2' />
+            <a href="https://www.instagram.com/fusionestudiomas/" rel="noreferrer" target="_blank"><FaInstagram size={32} className='mx-2' /></a>
             <FaBehance size={32} className='mx-2'/>
             <FaFacebookF size={32} className='ms-2'/>
           </div>

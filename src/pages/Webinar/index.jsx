@@ -19,7 +19,7 @@ const Webinar = () => {
             Si querés ser el primero en enterarte cuanto esten disponible los diferentes webinar, unite a nuestra lista de difusión. 
           </p>
         </div>
-        <h3>UNIRME A LISTA DE DIFUSIÓN</h3>
+        <a href="https://wa.me/+5492216806935" rel="noreferrer" target="_blank" className='joinList'>UNIRME A LISTA DE DIFUSIÓN</a>
       </div>
     </main>
   )
