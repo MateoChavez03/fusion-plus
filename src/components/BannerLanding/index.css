@@ -21,3 +21,27 @@
     margin-top: 1.5rem;
     font-size: 1.5rem;
   }
+
+  @media screen and (max-width: 768px) {
+
+    .bannerLanding {
+      padding: 0 3rem;
+      height: 20rem;
+    }
+
+    .bannerLanding h1 {
+      font-size: 2rem;
+    }
+
+    .bannerLanding h1 span {
+      color: var(--second-color);
+      font-size: 2rem;
+      letter-spacing: 0.15rem;
+      text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
+    }
+    
+    .bannerLanding p {
+      margin-top: 1.8rem;
+      font-size: 1.2rem;
+    }
+  }

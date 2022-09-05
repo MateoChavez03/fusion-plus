@@ -1,0 +1,146 @@
+.comentariosClientes {
+    min-height: 50vh;
+    align-content: center;
+    text-align: start;
+}
+
+.comentariosClientes h2 {
+    padding: 2rem 7rem;
+    color: var(--second-color);
+    font-size: 2.2rem;
+    font-weight: 700;
+    letter-spacing: 0.12rem;
+}
+
+.comentariosClientes h2 span {
+    color: var(--main-color);
+    font-size: 2.2rem;
+    font-weight: 700;
+    letter-spacing: 0.12rem;
+    text-shadow: -1px -1px 0 #1b6442, 1px -1px 0 #1b6442, -1px 1px 0 #1b6442, 1px 1px 0 #1b6442;
+}
+
+.comentariosClientesText {
+    padding: 2rem 7rem;
+    color: var(--fourth-color);
+    font-size: 1.2rem;
+}
+
+.line2 {
+    margin-left: 7rem;
+    width: 20rem;
+    border-top: 1px solid var(--fifth-color);
+}
+
+.clientesImgContainer {
+    background-color: var(--second-color);
+}
+
+.firstRow {
+    padding: 3rem 0;
+    border-bottom: 1.5px solid white;
+}
+
+.firstRow p {
+    color: transparent;
+}
+
+.secondRow {
+    padding: 3rem 0;
+}
+
+.firstClient {
+    background-image: url(../../assets/muzicWhite.png);
+    background-size:contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: transparent;
+    font-size: 1rem;
+    text-align: center;
+    align-items: center;
+    max-width: 22rem;
+    min-height: 14rem;
+    border-radius: 10px;
+    transition: all 0.5s
+}
+
+.firstClient:hover {
+    background-image: url(../../assets/muzicHover.png);
+    background-color: var(--fifth-color);
+    color: white;
+}
+
+.secondClient {
+    background-image: url(../../assets/guesosWhite.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: transparent;
+    font-size: 1rem;
+    text-align: center;
+    align-items: center;
+    max-width: 20rem;
+    min-height: 14rem;
+    border-radius: 10px;
+    transition: all 0.5s
+}
+
+.secondClient:hover {
+    background-image: url(../../assets/guesosHover.png);
+    background-color: var(--fifth-color);
+    color: white;
+}
+
+.thirdClient {
+    background-image: url(../../assets/higosWhite.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: transparent;
+    font-size: 1rem;
+    text-align: center;
+    align-items: center;
+    max-width: 22rem;
+    min-height: 14rem;
+    border-radius: 10px;
+    transition: all 0.5s
+}
+
+.thirdClient:hover {
+    background-image: url(../../assets/higosHover.png);
+    background-color: var(--fifth-color);
+    color: white;
+}
+
+.fourthClient {
+    background-image: url(../../assets/eqWhite.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    max-width: 22rem;
+    width: 100%;
+    min-height: 14rem;
+    border-radius: 10px;
+}
+
+.fifthClient {
+    background-image: url(../../assets/remaxWhite.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    max-width: 22rem;
+    width: 100%;
+    min-height: 14rem;
+    border-radius: 10px;
+}
+
+.sixthClient {
+    background-image: url(../../assets/pasteriaWhite.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+    max-width: 22rem;
+    width: 100%;
+    min-height: 14rem;
+    border-radius: 10px;
+}

@@ -19,20 +19,17 @@
     color: var(--fourth-color);
     font-weight: 400;
     font-size: 1.5rem;
-/*  font-family: 'Raleway', sans-serif; */
 }
 
 .boldSpan {
     color: var(--fourth-color);
     font-weight: 700;
     font-size: 1.5rem;
-/*  font-family: 'Raleway', sans-serif; */
 }
 
 .borderSpan{
     color: var(--main-color);
     font-size: 1.5rem;
-/*  font-family: 'Raleway', sans-serif; */
     text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
 }
 
@@ -74,4 +71,54 @@
     color: var(--fifth-color);
     text-align: center;
     font-size: 4rem;
+}
+
+@media screen and (max-width: 767px) {
+
+    /* Landing */
+
+    .contactoLanding {
+        padding: 2rem 1.5rem;
+        min-height: none;
+    }
+    
+    .contactoLanding h2{
+        font-size: 1.8rem;
+    }
+
+    .contactoLanding p {
+        padding: 0;
+        font-size: 1.2rem;
+    }
+    
+    .boldSpan {
+        font-size: 1.2rem;
+    }
+    
+    .borderSpan{
+        font-size: 1.2rem;
+    }
+
+    /* info */
+
+    .contactoInfo {
+        margin: 2rem 0;
+    }
+    
+    .contactoInfo .textStyle1 {
+        font-size: 0.8rem;
+    }
+    
+    .contactoInfo .textStyle2 {
+        font-size: 1.5rem;
+    }
+    
+    .contactoEndBanner {
+        padding: 1rem 1rem;
+        font-size: 1.8rem;
+    }
+    
+    .contactoEndBanner span {
+        font-size: 1.8rem;
+    } 
 }

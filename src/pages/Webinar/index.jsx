@@ -1,10 +1,12 @@
 import React from 'react';
+import Whatsapp from '../../components/Whatsapp/Whatsapp';
 import BannerLanding from '../../components/BannerLanding/BannerLandingWebinars';
 import './index.css';
 
 const Webinar = () => {
   return (
     <main className='divContainer webinar row'>
+      <Whatsapp/>
       <BannerLanding/>
       <div className='webinarLanding col-12 row d-flex'>
         <h2> PROXIMAMENTE MAS INFO </h2>

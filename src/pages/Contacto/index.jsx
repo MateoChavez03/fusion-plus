@@ -1,4 +1,5 @@
 import React from 'react';
+import Whatsapp from '../../components/Whatsapp/Whatsapp';
 import BannerLanding from '../../components/BannerLanding/BannerLandingContacto';
 import ContactForm from '../../components/ContactForm';
 import './index.css';
@@ -6,6 +7,7 @@ import './index.css';
 const Contacto = () => {
   return (
     <main className='divContainer contacto row'>
+      <Whatsapp />
       <BannerLanding />
       <div className='contactoLanding col-12 row d-flex'>
         <h2> ¿EMPRENDES? </h2>

@@ -18,7 +18,6 @@
     color: var(--fourth-color);
     font-weight: 500;
     font-size: 1.2rem;
-/*  font-family: 'Raleway', sans-serif; */
 }
 
 ::placeholder {
@@ -28,7 +27,6 @@
 .consulta {
     padding: 0.75rem 1.2rem;
     min-height: 10rem;
-    min-width: 20rem;
     max-width: 40rem;
     width: 100%;
     resize: none;
@@ -67,4 +65,41 @@ input:focus {
     color: var(--second-color);
     font-size: 1rem;
     font-weight: 600;
+}
+
+
+@media screen and (max-width: 767px) { 
+    .ContactForm {
+        padding: 2rem 1.5rem;
+        min-height: none;
+    }
+    
+    .ContactForm h3 {
+        padding: 0;
+        font-size: 1.5rem;
+    }
+    
+    .ContactForm p {
+        padding: 2rem 0;
+        font-size: 1rem;
+    }
+
+
+    .consulta {
+        max-width: 35rem;
+        width: 100%;
+    }
+
+    .submitBtn {
+        padding: 1rem 2.5rem;
+        margin: 1.5rem 0;
+        font-size: 0.8rem;
+    }
+    
+}
+
+@media screen and (max-width: 991px) { 
+    .form {
+        align-items: center;
+    }
 }
