@@ -1,0 +1,86 @@
+.clientesLanding {
+    padding: 0 7rem;
+    min-height: 50vh;
+    align-content: center;
+    text-align: start;
+}
+
+.clientesLanding div p {
+    padding: 1rem 0;
+    margin-right: 2rem;
+    color: var(--fourth-color);
+    max-width: 55vw;
+    min-width: 40vw;
+    font-size: 1.1rem;
+}
+
+.clientesLanding div p span {
+    color: var(--fourth-color);
+    font-size: 1.1rem;
+    font-weight: 700;
+}
+
+.clientesLandingImg {
+    max-width: 30rem;
+    min-width: 10rem;
+    width: 100%;
+    height: 28rem;
+    object-fit: cover;
+    outline: 2px solid var(--third-color);
+    outline-offset: -16px; 
+}
+
+.clientesEndBanner {
+    padding: 7rem 7rem;
+    color: var(--second-color);
+    text-align: center;
+    font-size: 4rem;
+}
+
+.cita {
+    color: var(--fifth-color);
+    text-align: center;
+    font-size: 4rem;
+}
+
+.autor {
+    color: var(--fifth-color);
+    text-align: center;
+    font-size: 2.2rem;
+}
+
+@media screen and (max-width: 997px) {
+    .clientesLanding {
+        padding: 2rem 1rem;
+    }
+
+    .clientesLanding div p {
+        margin-right: 0;
+        max-width: 80vw;
+        min-width: 40vw;
+        font-size: 0.9rem;
+    }
+
+    .clientesLanding div p span {
+        font-size: 0.9rem;
+    }
+
+    .clientesLandingImg {
+        max-width: 40rem;
+        width: 90%;
+        height: 20rem;
+    }
+
+    .clientesEndBanner {
+        padding: 5rem 1rem;
+        font-size: 1.7rem;
+    }
+    
+    .cita {
+        font-size: 1.7rem;
+    }
+    
+    .autor {
+        font-size: 1.2rem;
+    }
+}

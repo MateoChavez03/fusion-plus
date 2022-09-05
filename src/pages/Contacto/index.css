@@ -1,0 +1,124 @@
+/* Landing */
+
+.contactoLanding {
+    padding: 0 7rem;
+    min-height: 50vh;
+    align-content: center;
+    text-align: center;
+}
+
+.contactoLanding h2{
+    margin-bottom: 2rem;
+    color: var(--second-color);
+    font-weight: bold;
+    font-size: 2.5rem;
+}
+
+.contactoLanding p {
+    padding: 0 3rem;
+    color: var(--fourth-color);
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
+.boldSpan {
+    color: var(--fourth-color);
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+
+.borderSpan{
+    color: var(--main-color);
+    font-size: 1.5rem;
+    text-shadow: -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
+}
+
+.line {
+    width: 20vw;
+    border-top: 2px solid var(--fifth-color);
+    margin: auto;
+}
+
+/* Info */
+
+.contactoInfo {
+    background-color: var(--main-bg);
+    margin: 4rem 0;
+    text-align: center;
+}
+
+.contactoInfo .textStyle1 {
+    padding-top: 2rem;
+    color: var(--sixth-color);
+    font-size: 1.2rem;
+    font-weight: 600;
+    letter-spacing: 0.15rem;
+}
+
+.contactoInfo .textStyle2 {
+    padding-bottom: 1rem;
+    font-size: 2.8rem;
+}
+
+.contactoEndBanner {
+    padding: 6rem 7rem;
+    color: var(--second-color);
+    text-align: center;
+    font-size: 4rem;
+}
+
+.contactoEndBanner span {
+    color: var(--fifth-color);
+    text-align: center;
+    font-size: 4rem;
+}
+
+@media screen and (max-width: 767px) {
+
+    /* Landing */
+
+    .contactoLanding {
+        padding: 2rem 1.5rem;
+        min-height: none;
+    }
+    
+    .contactoLanding h2{
+        font-size: 1.8rem;
+    }
+
+    .contactoLanding p {
+        padding: 0;
+        font-size: 1.2rem;
+    }
+    
+    .boldSpan {
+        font-size: 1.2rem;
+    }
+    
+    .borderSpan{
+        font-size: 1.2rem;
+    }
+
+    /* info */
+
+    .contactoInfo {
+        margin: 2rem 0;
+    }
+    
+    .contactoInfo .textStyle1 {
+        font-size: 0.8rem;
+    }
+    
+    .contactoInfo .textStyle2 {
+        font-size: 1.5rem;
+    }
+    
+    .contactoEndBanner {
+        padding: 1rem 1rem;
+        font-size: 1.8rem;
+    }
+    
+    .contactoEndBanner span {
+        font-size: 1.8rem;
+    } 
+}
