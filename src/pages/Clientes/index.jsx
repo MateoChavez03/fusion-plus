@@ -1,10 +1,18 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import { useLocation } from 'react-router-dom';
 import Whatsapp from '../../components/Whatsapp/Whatsapp';
 import BannerLanding from '../../components/BannerLanding/BannerLandingClientes';
 import ComentariosClientes from '../../components/ComentariosClientes';
 import './index.css';
 
 const Clientes = () => {
+
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+
   return (
     <main className='divContainer clientes row'>
       <BannerLanding />

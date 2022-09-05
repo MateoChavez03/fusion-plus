@@ -1,10 +1,18 @@
-import React from 'react';
+import React, { useEffect } from 'react';
+import { useLocation } from 'react-router-dom';
 import Whatsapp from '../../components/Whatsapp/Whatsapp';
 import BannerLanding from '../../components/BannerLanding/BannerLandingContacto';
 import ContactForm from '../../components/ContactForm';
 import './index.css';
 
 const Contacto = () => {
+
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+
   return (
     <main className='divContainer contacto row'>
       <Whatsapp />

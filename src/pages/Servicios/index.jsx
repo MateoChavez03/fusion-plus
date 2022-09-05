@@ -1,9 +1,18 @@
+import React, { useEffect } from 'react';
+import { useLocation } from 'react-router-dom';
 import Content from './Content'
 import './index.css'
 import Whatsapp from '../../components/Whatsapp/Whatsapp';
 
 
 const Servicios = () => {
+
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+
   return (
     <main className='divContainer row'> 
       <Whatsapp/>
