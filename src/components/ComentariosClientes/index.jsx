@@ -5,7 +5,7 @@ const ComentariosClientes = () => {
   return (
     <div className='col-12 row comentariosClientes'>
       <h2>HABLAN <span>POR NOSOTROS</span></h2>
-      <hr className='line2'/>
+      <hr className='line2' />
       <p className='comentariosClientesText'>Clientes de las potenciales empresas con las que trabajamos, nos comparten su testimonio. Con sus comentarios nos identificamos y eso nos llena de orgullo.</p>
       <div className='clientesImgContainer d-flex row align-items-center justify-content-evenly'>
         <div className='firstRow d-flex row flex-column flex-lg-row align-items-center justify-content-evenly'>
