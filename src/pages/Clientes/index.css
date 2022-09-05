@@ -20,10 +20,6 @@
     font-weight: 700;
 }
 
-.clientesLanding div div {
-    max-width: 5rem;
-}
-
 .clientesLandingImg {
     max-width: 30rem;
     min-width: 10rem;
@@ -51,4 +47,40 @@
     color: var(--fifth-color);
     text-align: center;
     font-size: 2.2rem;
+}
+
+@media screen and (max-width: 997px) {
+    .clientesLanding {
+        padding: 2rem 1rem;
+    }
+
+    .clientesLanding div p {
+        margin-right: 0;
+        max-width: 80vw;
+        min-width: 40vw;
+        font-size: 0.9rem;
+    }
+
+    .clientesLanding div p span {
+        font-size: 0.9rem;
+    }
+
+    .clientesLandingImg {
+        max-width: 40rem;
+        width: 90%;
+        height: 20rem;
+    }
+
+    .clientesEndBanner {
+        padding: 5rem 1rem;
+        font-size: 1.7rem;
+    }
+    
+    .cita {
+        font-size: 1.7rem;
+    }
+    
+    .autor {
+        font-size: 1.2rem;
+    }
 }

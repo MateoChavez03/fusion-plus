@@ -58,7 +58,7 @@
     font-size: 1rem;
     text-align: center;
     align-items: center;
-    max-width: 22rem;
+    max-width: 21rem;
     min-height: 14rem;
     border-radius: 10px;
     transition: all 0.5s
@@ -79,7 +79,7 @@
     font-size: 1rem;
     text-align: center;
     align-items: center;
-    max-width: 20rem;
+    max-width: 21rem;
     min-height: 14rem;
     border-radius: 10px;
     transition: all 0.5s
@@ -100,7 +100,7 @@
     font-size: 1rem;
     text-align: center;
     align-items: center;
-    max-width: 22rem;
+    max-width: 21rem;
     min-height: 14rem;
     border-radius: 10px;
     transition: all 0.5s
@@ -117,7 +117,7 @@
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
-    max-width: 22rem;
+    max-width: 21rem;
     width: 100%;
     min-height: 14rem;
     border-radius: 10px;
@@ -128,7 +128,7 @@
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
-    max-width: 22rem;
+    max-width: 21rem;
     width: 100%;
     min-height: 14rem;
     border-radius: 10px;
@@ -139,8 +139,49 @@
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
-    max-width: 22rem;
+    max-width: 21rem;
     width: 100%;
     min-height: 14rem;
     border-radius: 10px;
+}
+
+@media screen and (max-width: 997px) {
+
+    .comentariosClientes {
+        min-height: 50vh;
+        align-content: center;
+        text-align: start;
+    }
+    
+    .comentariosClientes h2 {
+        padding: 2rem 2rem;
+        font-size: 1.5rem;
+    }
+    
+    .comentariosClientes h2 span {
+        font-size: 1.5rem;
+    }
+    
+    .line2 {
+        margin-left: 2rem;
+        width: 5rem;
+        border-top: 1px solid var(--fifth-color);
+    }
+    
+    .comentariosClientesText {
+        padding: 2rem 2rem;
+        font-size: 1rem;
+    }
+    
+    .firstRow {
+        padding: 3rem 0;
+    }
+    
+    .secondRow {
+        padding: 3rem 0;
+    }
+
+    .clientesImgContainer p {
+        margin: 1rem 0;
+    }
 }

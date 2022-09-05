@@ -9,7 +9,7 @@ const Clientes = () => {
     <main className='divContainer clientes row'>
       <BannerLanding />
       <Whatsapp />
-      <div className='clientesLanding col-12 d-flex align-items-center my-5'>
+      <div className='clientesLanding col-12 d-flex flex-column flex-lg-row align-items-center my-lg-5'>
         <div>
           <p>
             Siempre colaborando con el <span>progreso de nuestros clientes. </span> 

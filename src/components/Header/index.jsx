@@ -38,17 +38,17 @@ const Header = () => {
   }
 
   return (
-    <div className="col-12 row px-5 aling-items-center" id="header">
-      <div className="col-12 col-md-2 text-start text-md-center headerLogo">fusion +</div>
-      {windowSize < 577 &&
-      <div className="hamburger col-12 row justify-content-center">
+    <div className="col-12 d-flex flex-row justify-content-between px-5" id="header">
+      <div className="text-start d-flex align-items-center headerLogo">fusion +</div>
+      {windowSize < 765 &&
+      <div className="hamburger d-flex align-items-center">
         <img className="hamburgerIcon" height={20} src={hamburger} alt="hamburger" onClick={handleClick}/>        
       </div>}
-      {navbarOpen === false & windowSize < 577
+      {navbarOpen === false & windowSize < 765
         ? 
           <></>
         :         
-          <div className="col-12 col-md-10 navbar d-flex justify-content-center justify-content-md-end align-items-center" style={{ opacity:opacity }}>
+          <div className="navbar d-flex justify-content-center justify-content-md-end align-items-center" style={{ opacity:opacity }}>
             <NavLink to="/"  className="navItem">Nosotros</NavLink>
             <NavLink to="/servicios"  className="navItem">Servicios</NavLink>
             <NavLink to="/clientes"  className="navItem">Clientes</NavLink>
