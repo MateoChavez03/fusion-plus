@@ -49,11 +49,11 @@ const Header = () => {
           <></>
         :         
           <div className="navbar d-flex justify-content-center justify-content-md-end align-items-center" style={{ opacity:opacity }}>
-            <NavLink to="/"  className="navItem">Nosotros</NavLink>
-            <NavLink to="/servicios"  className="navItem">Servicios</NavLink>
-            <NavLink to="/clientes"  className="navItem">Clientes</NavLink>
-            <NavLink to="/webinar"  className="navItem">Webinar</NavLink>
-            <NavLink to="/contacto"  className="navItem">Contacto</NavLink>
+            <NavLink to="/"  className="navItem" onClick={handleClick}>Nosotros</NavLink>
+            <NavLink to="/servicios"  className="navItem" onClick={handleClick}>Servicios</NavLink>
+            <NavLink to="/clientes"  className="navItem" onClick={handleClick}>Clientes</NavLink>
+            <NavLink to="/webinar"  className="navItem" onClick={handleClick}>Webinar</NavLink>
+            <NavLink to="/contacto"  className="navItem" onClick={handleClick}>Contacto</NavLink>
           </div>
       }
     </div> 

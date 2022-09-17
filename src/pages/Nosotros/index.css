@@ -214,6 +214,32 @@
   .aboutDiv {    
     padding: 2rem 2rem;    
   } 
+
+  .aboutText {
+    padding-right: 0;
+    
+  }
+
+  .aboutNumbersContainer {  
+    /* height: 100%; */
+    padding: 1rem;
+  }
+  
+}
+
+@media screen and (max-width: 425px) {
+  .aboutH3 {
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+  }  
+
+  .aboutP {
+    font-size: 0.8rem;
+  }
+
+  .aboutNumbers {    
+    font-size: 2rem;    
+  } 
   
 }
 
@@ -300,6 +326,10 @@
 @media screen and (max-width: 576px) {
   .contentContainer {
     padding: 0;
+  }
+
+  .contentP {
+    font-size: 1rem;
   }
 }
 
