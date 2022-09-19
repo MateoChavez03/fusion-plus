@@ -3,12 +3,10 @@ import hamburger from "../../assets/hamburger.svg"
 import React, { useEffect, useState } from "react"
 import "./index.css"
 
-
 const Header = () => {
   const [navbarOpen, setNavbarOpen] = useState(false)
   const [windowSize, setWindowSize] = useState(window.innerWidth)
   const [opacity, setOpacity] = useState(1)
-
 
   useEffect(() => {
     const handleResize = () => {
