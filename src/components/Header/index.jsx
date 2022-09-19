@@ -3,12 +3,10 @@ import hamburger from "../../assets/hamburger.svg"
 import React, { useEffect, useState } from "react"
 import "./index.css"
 
-
 const Header = () => {
   const [navbarOpen, setNavbarOpen] = useState(false)
   const [windowSize, setWindowSize] = useState(window.innerWidth)
   const [opacity, setOpacity] = useState(1)
-
 
   useEffect(() => {
     const handleResize = () => {
@@ -22,19 +20,21 @@ const Header = () => {
   }, [])
 
   const handleClick = () => {
-    if (navbarOpen) {
-      setOpacity(0)
-      setTimeout(() => {
-        setNavbarOpen(false)
-      }, 300)
-    } else {      
-      setOpacity(0) 
-      setNavbarOpen(true) 
-      setTimeout(() => {
-        setOpacity(1) 
-      }, 1)    
-      
-    }
+    if (windowSize < 768) {
+      if (navbarOpen) {
+        setOpacity(0)
+        setTimeout(() => {
+          setNavbarOpen(false)
+        }, 300)
+      } else {      
+        setOpacity(0) 
+        setNavbarOpen(true) 
+        setTimeout(() => {
+          setOpacity(1) 
+        }, 1)    
+        
+      }
+    }    
   }
 
   return (
