@@ -22,19 +22,21 @@ const Header = () => {
   }, [])
 
   const handleClick = () => {
-    if (navbarOpen) {
-      setOpacity(0)
-      setTimeout(() => {
-        setNavbarOpen(false)
-      }, 300)
-    } else {      
-      setOpacity(0) 
-      setNavbarOpen(true) 
-      setTimeout(() => {
-        setOpacity(1) 
-      }, 1)    
-      
-    }
+    if (windowSize < 768) {
+      if (navbarOpen) {
+        setOpacity(0)
+        setTimeout(() => {
+          setNavbarOpen(false)
+        }, 300)
+      } else {      
+        setOpacity(0) 
+        setNavbarOpen(true) 
+        setTimeout(() => {
+          setOpacity(1) 
+        }, 1)    
+        
+      }
+    }    
   }
 
   return (
