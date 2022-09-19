@@ -6,3 +6,12 @@
   bottom: 30px;
   filter: drop-shadow(1px 3px 5px rgba(0, 36, 17, 0.5));
 }
+
+@media screen and (max-width: 768px) {
+  .whatsapp {    
+    width: 55px;
+    height: 55px;
+       
+  }
+  
+}
